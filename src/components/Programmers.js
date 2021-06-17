@@ -52,7 +52,7 @@ export default function Programmers() {
   const style = {
     fontSize: '1.5em',
     marginTop: '0.5em',
-    color: 'royalblue', // 🤔 color turns to gold, when celebrating
+    color: id !== "" ? 'gold': 'royalblue', // 🤔 color turns to gold, when celebrating
   };
 
   return (
