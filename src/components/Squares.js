@@ -48,9 +48,16 @@ export default function Squares() {
     // the currently active square id back to initial state).
     setActiveSquare(id)
     
+    const style = {
+      fontSize: '1.5em',
+      marginTop: '0.5em',
+      border: '2px dashed (0,0,0)', // 🤔 color turns to gold, when celebrating
+    };
+
 
   };
 
+  
   return (
     <div className='widget-squares container'>
       <h2>Squares</h2>
