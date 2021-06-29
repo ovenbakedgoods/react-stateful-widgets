@@ -4,7 +4,8 @@
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html",
-    "test": "cypress open"
+    "test": "node_modules\\.bin\\cypress run --headed --browser chrome",
+    "runtests": "npm run test -- "
   },
   "license": "ISC",
   "devDependencies": {
